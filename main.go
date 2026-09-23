@@ -82,7 +82,7 @@ const (
 	pluginID                     = "codex-token-usage"
 	codexQuotaAPIURL             = "https://chatgpt.com/backend-api/wham/usage"
 	codexResponsesAPIURL         = "https://chatgpt.com/backend-api/codex/responses/compact"
-	codexProbeModel              = "gpt-5.5"
+	codexProbeModel              = "gpt-6-sol"
 	dbHealthCheckInterval        = 10 * time.Minute
 )
 

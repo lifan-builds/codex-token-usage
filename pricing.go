@@ -54,6 +54,10 @@ type costSummary struct {
 
 func defaultModelPrices() map[string]modelPrice {
 	prices := map[string]modelPrice{
+		"gpt-6-sol":                  {Prompt: 2, Completion: 10, Cache: 0.20, CacheSet: true},
+		"openai/gpt-6-sol":           {Prompt: 2, Completion: 10, Cache: 0.20, CacheSet: true},
+		"gpt-6-luna":                 {Prompt: 0.10, Completion: 0.50, Cache: 0.01, CacheSet: true},
+		"openai/gpt-6-luna":          {Prompt: 0.10, Completion: 0.50, Cache: 0.01, CacheSet: true},
 		"gpt-5.5":                     {Prompt: 5, Completion: 30, Cache: 0.50, CacheSet: true},
 		"openai/gpt-5.5":              {Prompt: 5, Completion: 30, Cache: 0.50, CacheSet: true},
 		"gpt-5.4":                     {Prompt: 2.50, Completion: 15, Cache: 0.25, CacheSet: true},
